@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+			<dict>
+				<key>functionIdentifier</key>
+				<string>public.script.item</string>
+				<key>settings</key>
+				<dict>
+					<key>title</key>
+					<string>Effacer totalement l'ordinateur</string>
+					<key>script</key>
+					<string>com.github.darkomen78.hello-it.eraseall.sh</string>
+					<key>optionalDisplay</key>
+					<true/>
+				</dict>
+			</dict>
+</plist>
