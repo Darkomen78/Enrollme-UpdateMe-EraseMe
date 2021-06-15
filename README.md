@@ -1,7 +1,6 @@
-UpdateMe and Erase&Install
-==========
+# UpdateMe and Erase&Install
 
-Some stuff to facilitate macOS major update or full erase and reinstall for non-admin users.
+### Some stuff to facilitate macOS major update or full erase and reinstall for non-admin users.
 
 * __A working Munki installation is required.__ More infos [here](https://github.com/munki/munki)
 * __Hello-IT functionals parameters with the key _allow subdomains_ to true are mandatory.__ See Wiki [here](https://github.com/ygini/Hello-IT/wiki/Preferences-subdomain)
