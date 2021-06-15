@@ -1,6 +1,6 @@
-# UpdateMe and Erase&Install
+# Update Me and Erase-Install
 
-### Some stuff to facilitate macOS major update or full erase and reinstall for non-admin users.
+Some stuff to facilitate macOS major update or full erase and reinstall for non-admin users.
 
 * __A working Munki installation is required.__ More infos [here](https://github.com/munki/munki)
 * __Hello-IT functionals parameters with the key _allow subdomains_ to true are mandatory.__ See Wiki [here](https://github.com/ygini/Hello-IT/wiki/Preferences-subdomain)
@@ -14,13 +14,13 @@ __Major Update package need these files :__
 * /Users/Shared/IT/update/com.github.ygini.Hello-IT.MajorUpdate.plist
 * /Users/Shared/IT/erase/erase-install.sh 
 
-* And as post-install script : /scripts/postinstall_majorupdate
+And as post-install script : /scripts/postinstall_majorupdate
 ---
-* __Erase & Install package need these files :__
+__Erase & Install package need these files :__
 * /etc/sudoers.d/com-github-darkomen78-eraseinstall-sudoers
 * /Users/Shared/IT/erase/com.github.ygini.Hello-IT.Erase
 * /Users/Shared/IT/erase/erase-install.sh 
 
-* And as post-install script : /scripts/postinstall_erase
+And as post-install script : /scripts/postinstall_erase
 
-* Optional : you can add some .pkg files in /Users/Shared/IT/erase/pkg/ folder for an auto-installation after the macOS reinstallation.
+Optional : you can add some .pkg files in /Users/Shared/IT/erase/pkg/ folder for an auto-installation after the macOS reinstallation.
