@@ -15,11 +15,13 @@ You can make two packages to split these functions in two items for Munki (Erase
 * /etc/sudoers.d/com-github-darkomen78-majorupdate-sudoers
 * /Users/Shared/IT/update/com.github.ygini.Hello-IT.MajorUpdate.plist
 * /Users/Shared/IT/erase/erase-install.sh  
+* /Library/Application Support/com.github.ygini.hello-it/CustomScripts/com.github.darkomen78.hello-it.major-update.sh
 And as post-install script : /scripts/postinstall_majorupdate
 
 ### Erase & Install package need these files :
 * /etc/sudoers.d/com-github-darkomen78-eraseinstall-sudoers
 * /Users/Shared/IT/erase/com.github.ygini.Hello-IT.Erase
-* /Users/Shared/IT/erase/erase-install.sh  
+* /Users/Shared/IT/erase/erase-install.sh
+* /Library/Application Support/com.github.ygini.hello-it/CustomScripts/com.github.darkomen78.hello-it.eraseall.sh  
 And as post-install script : /scripts/postinstall_erase  
 _Optional_ : you can add some .pkg files in /Users/Shared/IT/erase/pkg/ folder for auto-installation after the macOS reinstallation.
