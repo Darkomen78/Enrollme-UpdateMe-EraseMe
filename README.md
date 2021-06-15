@@ -6,15 +6,15 @@ Some stuff to facilitate macOS major update or full erase and reinstall for non-
 * Latest release for erase-install.sh file can be found [here](https://github.com/grahampugh/erase-install/releases).
 You can make two packages to split these functions in two items for Munki.
 The IT folder can be relocated, but beware of the folder access confidential limitation and change ITFOLDER variable in both post-install scripts.
-## Packages content
 ---
-__Major Update package need these files :__
+## Packages content
+###__Major Update package need these files :__
 * /etc/sudoers.d/com-github-darkomen78-majorupdate-sudoers
 * /Users/Shared/IT/update/com.github.ygini.Hello-IT.MajorUpdate.plist
 * /Users/Shared/IT/erase/erase-install.sh 
 And as post-install script : /scripts/postinstall_majorupdate
----
-__Erase & Install package need these files :__
+
+###__Erase & Install package need these files :__
 * /etc/sudoers.d/com-github-darkomen78-eraseinstall-sudoers
 * /Users/Shared/IT/erase/com.github.ygini.Hello-IT.Erase
 * /Users/Shared/IT/erase/erase-install.sh 
