@@ -4,7 +4,7 @@ Some stuff to facilitate macOS major update or full erase and reinstall for non-
 * __A working Munki installation is required.__ More infos [here](https://github.com/munki/munki)
 * __Hello-IT functionals parameters with the key _allow subdomains_ to true are mandatory.__ See Wiki [here](https://github.com/ygini/Hello-IT/wiki/Preferences-subdomain).
 * Latest release for erase-install.sh file can be found [here](https://github.com/grahampugh/erase-install/releases).
-  
+## Tips
 You can make two packages to split these functions in two items for Munki.  
 The IT folder can be relocated, but beware of the folder access confidential limitation and change ITFOLDER variable in both post-install scripts.
 ---
