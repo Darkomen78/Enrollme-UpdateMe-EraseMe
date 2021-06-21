@@ -7,7 +7,8 @@ Some stuff to facilitate macOS major update or full erase and reinstall for non-
 * Latest release for erase-install.sh file can be found [here](https://github.com/grahampugh/erase-install/releases)
 
 ## Usage & Tips
-You can make two packages to split these functions in two items for Munki (Erase&Install must be optional). <br/>The IT folder can be relocated, but beware of the folder access confidential limitation and change ITFOLDER variable in both post-install scripts.
+You can make two files with [Packages](http://s.sudre.free.fr/Software/Packages/about.html) to split these functions in two items for Munki (Erase&Install must be optional). <br/>The IT folder can be relocated, but beware of the folder access confidential limitation and change ITFOLDER variable in both post-install scripts.
+__Warning ! Theses tools can easily destroy all data on your computer, please test them and understand how it's work before use.__
 
 ## Packages content
 

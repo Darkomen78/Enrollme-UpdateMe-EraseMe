@@ -1,0 +1,10 @@
+#!/bin/bash
+
+ITFOLDER="/Users/Shared/IT"
+USRSHORTNAME="$(ls -la /dev/console | awk '{print $3}')"
+
+cp $ITFOLDER/erase/com.github.ygini.Hello-IT.Erase_french.plist /Users/$USRSHORTNAME/Library/Preferences/com.github.ygini.Hello-IT.Erase.plist
+killall "Hello IT"
+sleep 5
+open "/Applications/Utilities/Hello IT.app"
+exit 0
