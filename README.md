@@ -1,4 +1,4 @@
-# EnrollMe, UpdateMe and Erase-Install
+# EnrollMe, UpdateMe and EraseMe
 Some stuff to facilitate enrollment, system major update and full erase for non-admin users.
 
 ## Prerequises
@@ -18,14 +18,14 @@ You can make two files with [Packages](http://s.sudre.free.fr/Software/Packages/
 * /Library/Application Support/com.github.ygini.hello-it/CustomScripts/com.github.darkomen78.hello-it.enrollme.sh
 * As a post-install script : /scripts/postinstall_enrollme
 
-### Major Update package need these files :
+### UpdateMe package need these files :
 * /etc/sudoers.d/com-github-darkomen78-majorupdate-sudoers
 * /Users/Shared/IT/update/com.github.ygini.Hello-IT.MajorUpdate.plist
 * /Users/Shared/IT/erase/erase-install.sh  
 * /Library/Application Support/com.github.ygini.hello-it/CustomScripts/com.github.darkomen78.hello-it.major-update.sh
 * As a post-install script : /scripts/postinstall_majorupdate
 
-### Erase & Install package need these files :
+### EraseMe package need these files :
 * /etc/sudoers.d/com-github-darkomen78-eraseinstall-sudoers
 * /Users/Shared/IT/erase/com.github.ygini.Hello-IT.Erase
 * /Users/Shared/IT/erase/erase-install.sh
