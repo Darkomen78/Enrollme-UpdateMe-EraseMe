@@ -11,10 +11,10 @@
 						<key>fr</key>
 						<string>Effacer totalement l'ordinateur</string>
 						<key>en</key>
-						<string>Wipe all the computerr</string>
+						<string>Wipe all data</string>
 					</dict>
 					<key>script</key>
-					<string>com.github.darkomen78.hello-it.eraseall.sh</string>
+					<string>com.github.darkomen78.hello-it.eraseme.sh</string>
 					<key>optionalDisplay</key>
 					<true/>
 				</dict>

@@ -3,7 +3,7 @@
 ITFOLDER="/Users/Shared/IT"
 USRSHORTNAME="$(ls -la /dev/console | awk '{print $3}')"
 
-cp $ITFOLDER/erase/com.github.ygini.Hello-IT.Erase.plist /Users/$USRSHORTNAME/Library/Preferences/com.github.ygini.Hello-IT.Erase.plist
+cp $ITFOLDER/erase/com.github.ygini.Hello-IT.eraseme.plist /Users/$USRSHORTNAME/Library/Preferences/com.github.ygini.Hello-IT.eraseme.plist
 killall "Hello IT"
 sleep 5
 open "/Applications/Utilities/Hello IT.app"

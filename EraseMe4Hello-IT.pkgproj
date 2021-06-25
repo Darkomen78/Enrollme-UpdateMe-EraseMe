@@ -73,7 +73,7 @@
 										<key>GID</key>
 										<integer>0</integer>
 										<key>PATH</key>
-										<string>etc/sudoers.d/com-github-darkomen78-enrollme-sudoers</string>
+										<string>etc/sudoers.d/com-github-darkomen78-eraseme-sudoers</string>
 										<key>PATH_TYPE</key>
 										<integer>1</integer>
 										<key>PERMISSIONS</key>
@@ -133,7 +133,7 @@
 														<key>GID</key>
 														<integer>80</integer>
 														<key>PATH</key>
-														<string>Library/Application Support/com.github.ygini.hello-it/CustomScripts/com.github.darkomen78.hello-it.enrollme.sh</string>
+														<string>Library/Application Support/com.github.ygini.hello-it/CustomScripts/com.github.darkomen78.hello-it.eraseme.sh</string>
 														<key>PATH_TYPE</key>
 														<integer>1</integer>
 														<key>PERMISSIONS</key>
@@ -512,7 +512,7 @@
 														<key>GID</key>
 														<integer>80</integer>
 														<key>PATH</key>
-														<string>Users/Shared/IT/enrollme/com.github.ygini.Hello-IT.Enrollme.plist</string>
+														<string>Users/Shared/IT/erase/com.github.ygini.Hello-IT.eraseme.plist</string>
 														<key>PATH_TYPE</key>
 														<integer>1</integer>
 														<key>PERMISSIONS</key>
@@ -528,7 +528,25 @@
 														<key>GID</key>
 														<integer>80</integer>
 														<key>PATH</key>
-														<string>Users/Shared/IT/enrollme/enrollme.sh</string>
+														<string>Users/Shared/IT/erase/erase-install.sh</string>
+														<key>PATH_TYPE</key>
+														<integer>1</integer>
+														<key>PERMISSIONS</key>
+														<integer>493</integer>
+														<key>TYPE</key>
+														<integer>3</integer>
+														<key>UID</key>
+														<integer>0</integer>
+													</dict>
+													<dict>
+														<key>CHILDREN</key>
+														<array/>
+														<key>EXPANDED</key>
+														<true/>
+														<key>GID</key>
+														<integer>80</integer>
+														<key>PATH</key>
+														<string>Users/Shared/IT/erase/pkg</string>
 														<key>PATH_TYPE</key>
 														<integer>1</integer>
 														<key>PERMISSIONS</key>
@@ -544,7 +562,7 @@
 												<key>GID</key>
 												<integer>80</integer>
 												<key>PATH</key>
-												<string>Users/Shared/IT/enrollme</string>
+												<string>Users/Shared/IT/erase</string>
 												<key>PATH_TYPE</key>
 												<integer>1</integer>
 												<key>PERMISSIONS</key>
@@ -760,7 +778,7 @@
 			<key>POSTINSTALL_PATH</key>
 			<dict>
 				<key>PATH</key>
-				<string>scripts/postinstall_enrollme</string>
+				<string>scripts/postinstall_eraseme</string>
 				<key>PATH_TYPE</key>
 				<integer>1</integer>
 			</dict>
@@ -781,7 +799,7 @@
 			<key>FOLLOW_SYMBOLIC_LINKS</key>
 			<false/>
 			<key>IDENTIFIER</key>
-			<string>com.github.darkomen78.hello-it.enrollme</string>
+			<string>com.github.darkomen78.hello-it.eraseme</string>
 			<key>LOCATION</key>
 			<integer>0</integer>
 			<key>NAME</key>
@@ -994,7 +1012,7 @@
 				</dict>
 			</array>
 			<key>NAME</key>
-			<string>EnrollMe4Hello-IT</string>
+			<string>EraseMe4Hello-IT</string>
 			<key>PAYLOAD_ONLY</key>
 			<false/>
 		</dict>

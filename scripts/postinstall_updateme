@@ -3,7 +3,7 @@
 ITFOLDER="/Users/Shared/IT"
 USRSHORTNAME="$(ls -la /dev/console | awk '{print $3}')"
 
-cp $ITFOLDER/update/com.github.ygini.Hello-IT.MajorUpdate.plist /Users/$USRSHORTNAME/Library/Preferences/com.github.ygini.Hello-IT.MajorUpdate.plist
+cp $ITFOLDER/update/com.github.ygini.Hello-IT.updateme.plist /Users/$USRSHORTNAME/Library/Preferences/com.github.ygini.Hello-IT.updateme.plist
 killall "Hello IT"
 sleep 5
 open "/Applications/Utilities/Hello IT.app"

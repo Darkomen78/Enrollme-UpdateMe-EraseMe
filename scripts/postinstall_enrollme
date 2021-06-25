@@ -3,7 +3,7 @@
 ITFOLDER="/Users/Shared/IT"
 USRSHORTNAME="$(ls -la /dev/console | awk '{print $3}')"
 
-cp $ITFOLDER/enrollme/com.github.ygini.Hello-IT.Enrollme.plist /Users/$USRSHORTNAME/Library/Preferences/com.github.ygini.Hello-IT.Enrollme.plist
+cp $ITFOLDER/enrollme/com.github.ygini.Hello-IT.enrollme.plist /Users/$USRSHORTNAME/Library/Preferences/com.github.ygini.Hello-IT.enrollme.plist
 killall "Hello IT"
 sleep 5
 open "/Applications/Utilities/Hello IT.app"
