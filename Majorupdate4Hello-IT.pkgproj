@@ -131,7 +131,7 @@
 														<key>CHILDREN</key>
 														<array/>
 														<key>GID</key>
-														<integer>0</integer>
+														<integer>80</integer>
 														<key>PATH</key>
 														<string>Library/Application Support/com.github.ygini.hello-it/CustomScripts/com.github.darkomen78.hello-it.major-update.sh</string>
 														<key>PATH_TYPE</key>
@@ -147,7 +147,7 @@
 												<key>EXPANDED</key>
 												<true/>
 												<key>GID</key>
-												<integer>0</integer>
+												<integer>80</integer>
 												<key>PATH</key>
 												<string>Library/Application Support/com.github.ygini.hello-it/CustomScripts</string>
 												<key>PATH_TYPE</key>
@@ -163,7 +163,7 @@
 										<key>EXPANDED</key>
 										<true/>
 										<key>GID</key>
-										<integer>0</integer>
+										<integer>80</integer>
 										<key>PATH</key>
 										<string>Library/Application Support/com.github.ygini.hello-it</string>
 										<key>PATH_TYPE</key>
@@ -510,7 +510,7 @@
 														<key>CHILDREN</key>
 														<array/>
 														<key>GID</key>
-														<integer>0</integer>
+														<integer>80</integer>
 														<key>PATH</key>
 														<string>Users/Shared/IT/erase/erase-install.sh</string>
 														<key>PATH_TYPE</key>
@@ -526,7 +526,7 @@
 												<key>EXPANDED</key>
 												<true/>
 												<key>GID</key>
-												<integer>0</integer>
+												<integer>80</integer>
 												<key>PATH</key>
 												<string>Users/Shared/IT/erase</string>
 												<key>PATH_TYPE</key>
@@ -545,7 +545,7 @@
 														<key>CHILDREN</key>
 														<array/>
 														<key>GID</key>
-														<integer>0</integer>
+														<integer>80</integer>
 														<key>PATH</key>
 														<string>Users/Shared/IT/update/com.github.ygini.Hello-IT.MajorUpdate.plist</string>
 														<key>PATH_TYPE</key>
@@ -561,7 +561,7 @@
 												<key>EXPANDED</key>
 												<true/>
 												<key>GID</key>
-												<integer>0</integer>
+												<integer>80</integer>
 												<key>PATH</key>
 												<string>Users/Shared/IT/update</string>
 												<key>PATH_TYPE</key>
@@ -577,7 +577,7 @@
 										<key>EXPANDED</key>
 										<true/>
 										<key>GID</key>
-										<integer>0</integer>
+										<integer>80</integer>
 										<key>PATH</key>
 										<string>Users/Shared/IT</string>
 										<key>PATH_TYPE</key>
@@ -816,7 +816,7 @@
 			<key>USE_HFS+_COMPRESSION</key>
 			<false/>
 			<key>VERSION</key>
-			<string>0.3</string>
+			<string>0.4</string>
 		</dict>
 		<key>PROJECT_COMMENTS</key>
 		<dict>

@@ -73,7 +73,7 @@
 										<key>GID</key>
 										<integer>0</integer>
 										<key>PATH</key>
-										<string>etc/sudoers.d/com-github-darkomen78-majorupdate-sudoers</string>
+										<string>etc/sudoers.d/com-github-darkomen78-enrollme-sudoers</string>
 										<key>PATH_TYPE</key>
 										<integer>1</integer>
 										<key>PERMISSIONS</key>
@@ -131,9 +131,9 @@
 														<key>CHILDREN</key>
 														<array/>
 														<key>GID</key>
-														<integer>0</integer>
+														<integer>80</integer>
 														<key>PATH</key>
-														<string>Library/Application Support/com.github.ygini.hello-it/CustomScripts/com.github.darkomen78.hello-it.major-update.sh</string>
+														<string>Library/Application Support/com.github.ygini.hello-it/CustomScripts/com.github.darkomen78.hello-it.enrollme.sh</string>
 														<key>PATH_TYPE</key>
 														<integer>1</integer>
 														<key>PERMISSIONS</key>
@@ -147,7 +147,7 @@
 												<key>EXPANDED</key>
 												<true/>
 												<key>GID</key>
-												<integer>0</integer>
+												<integer>80</integer>
 												<key>PATH</key>
 												<string>Library/Application Support/com.github.ygini.hello-it/CustomScripts</string>
 												<key>PATH_TYPE</key>
@@ -163,7 +163,7 @@
 										<key>EXPANDED</key>
 										<true/>
 										<key>GID</key>
-										<integer>0</integer>
+										<integer>80</integer>
 										<key>PATH</key>
 										<string>Library/Application Support/com.github.ygini.hello-it</string>
 										<key>PATH_TYPE</key>
@@ -510,9 +510,9 @@
 														<key>CHILDREN</key>
 														<array/>
 														<key>GID</key>
-														<integer>0</integer>
+														<integer>80</integer>
 														<key>PATH</key>
-														<string>Users/Shared/IT/erase/erase-install.sh</string>
+														<string>Users/Shared/IT/enrollme/com.github.ygini.Hello-IT.Enrollme.plist</string>
 														<key>PATH_TYPE</key>
 														<integer>1</integer>
 														<key>PERMISSIONS</key>
@@ -522,32 +522,13 @@
 														<key>UID</key>
 														<integer>0</integer>
 													</dict>
-												</array>
-												<key>EXPANDED</key>
-												<true/>
-												<key>GID</key>
-												<integer>0</integer>
-												<key>PATH</key>
-												<string>Users/Shared/IT/erase</string>
-												<key>PATH_TYPE</key>
-												<integer>1</integer>
-												<key>PERMISSIONS</key>
-												<integer>493</integer>
-												<key>TYPE</key>
-												<integer>3</integer>
-												<key>UID</key>
-												<integer>0</integer>
-											</dict>
-											<dict>
-												<key>CHILDREN</key>
-												<array>
 													<dict>
 														<key>CHILDREN</key>
 														<array/>
 														<key>GID</key>
-														<integer>0</integer>
+														<integer>80</integer>
 														<key>PATH</key>
-														<string>Users/Shared/IT/update/com.github.ygini.Hello-IT.MajorUpdate_french.plist</string>
+														<string>Users/Shared/IT/enrollme/enrollme.sh</string>
 														<key>PATH_TYPE</key>
 														<integer>1</integer>
 														<key>PERMISSIONS</key>
@@ -561,9 +542,9 @@
 												<key>EXPANDED</key>
 												<true/>
 												<key>GID</key>
-												<integer>0</integer>
+												<integer>80</integer>
 												<key>PATH</key>
-												<string>Users/Shared/IT/update</string>
+												<string>Users/Shared/IT/enrollme</string>
 												<key>PATH_TYPE</key>
 												<integer>1</integer>
 												<key>PERMISSIONS</key>
@@ -577,7 +558,7 @@
 										<key>EXPANDED</key>
 										<true/>
 										<key>GID</key>
-										<integer>0</integer>
+										<integer>80</integer>
 										<key>PATH</key>
 										<string>Users/Shared/IT</string>
 										<key>PATH_TYPE</key>
@@ -779,7 +760,7 @@
 			<key>POSTINSTALL_PATH</key>
 			<dict>
 				<key>PATH</key>
-				<string>scripts/postinstall_majorupdate_french</string>
+				<string>scripts/postinstall_erase</string>
 				<key>PATH_TYPE</key>
 				<integer>1</integer>
 			</dict>
@@ -800,7 +781,7 @@
 			<key>FOLLOW_SYMBOLIC_LINKS</key>
 			<false/>
 			<key>IDENTIFIER</key>
-			<string>com.github.darkomen78.hello-it.major-update.french</string>
+			<string>com.github.darkomen78.hello-it.enrollme</string>
 			<key>LOCATION</key>
 			<integer>0</integer>
 			<key>NAME</key>
@@ -1013,7 +994,7 @@
 				</dict>
 			</array>
 			<key>NAME</key>
-			<string>Majorupdate4Hello-IT_french</string>
+			<string>EnrollMe4Hello-IT</string>
 			<key>PAYLOAD_ONLY</key>
 			<false/>
 		</dict>

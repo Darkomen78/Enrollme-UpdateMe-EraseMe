@@ -131,7 +131,7 @@
 														<key>CHILDREN</key>
 														<array/>
 														<key>GID</key>
-														<integer>0</integer>
+														<integer>80</integer>
 														<key>PATH</key>
 														<string>Library/Application Support/com.github.ygini.hello-it/CustomScripts/com.github.darkomen78.hello-it.eraseall.sh</string>
 														<key>PATH_TYPE</key>
@@ -147,7 +147,7 @@
 												<key>EXPANDED</key>
 												<true/>
 												<key>GID</key>
-												<integer>0</integer>
+												<integer>80</integer>
 												<key>PATH</key>
 												<string>Library/Application Support/com.github.ygini.hello-it/CustomScripts</string>
 												<key>PATH_TYPE</key>
@@ -163,7 +163,7 @@
 										<key>EXPANDED</key>
 										<true/>
 										<key>GID</key>
-										<integer>0</integer>
+										<integer>80</integer>
 										<key>PATH</key>
 										<string>Library/Application Support/com.github.ygini.hello-it</string>
 										<key>PATH_TYPE</key>
@@ -510,13 +510,13 @@
 														<key>CHILDREN</key>
 														<array/>
 														<key>GID</key>
-														<integer>0</integer>
+														<integer>80</integer>
 														<key>PATH</key>
 														<string>Users/Shared/IT/erase/com.github.ygini.Hello-IT.Erase.plist</string>
 														<key>PATH_TYPE</key>
 														<integer>1</integer>
 														<key>PERMISSIONS</key>
-														<integer>420</integer>
+														<integer>493</integer>
 														<key>TYPE</key>
 														<integer>3</integer>
 														<key>UID</key>
@@ -526,7 +526,7 @@
 														<key>CHILDREN</key>
 														<array/>
 														<key>GID</key>
-														<integer>0</integer>
+														<integer>80</integer>
 														<key>PATH</key>
 														<string>Users/Shared/IT/erase/erase-install.sh</string>
 														<key>PATH_TYPE</key>
@@ -544,7 +544,7 @@
 														<key>EXPANDED</key>
 														<true/>
 														<key>GID</key>
-														<integer>0</integer>
+														<integer>80</integer>
 														<key>PATH</key>
 														<string>Users/Shared/IT/erase/pkg</string>
 														<key>PATH_TYPE</key>
@@ -560,7 +560,7 @@
 												<key>EXPANDED</key>
 												<true/>
 												<key>GID</key>
-												<integer>0</integer>
+												<integer>80</integer>
 												<key>PATH</key>
 												<string>Users/Shared/IT/erase</string>
 												<key>PATH_TYPE</key>
@@ -576,7 +576,7 @@
 										<key>EXPANDED</key>
 										<true/>
 										<key>GID</key>
-										<integer>0</integer>
+										<integer>80</integer>
 										<key>PATH</key>
 										<string>Users/Shared/IT</string>
 										<key>PATH_TYPE</key>
@@ -815,7 +815,7 @@
 			<key>USE_HFS+_COMPRESSION</key>
 			<false/>
 			<key>VERSION</key>
-			<string>0.3</string>
+			<string>0.4</string>
 		</dict>
 		<key>PROJECT_COMMENTS</key>
 		<dict>
@@ -1012,7 +1012,7 @@
 				</dict>
 			</array>
 			<key>NAME</key>
-			<string>Erase&amp;Install4Hello-IT</string>
+			<string>EraseInstall4Hello-IT</string>
 			<key>PAYLOAD_ONLY</key>
 			<false/>
 		</dict>

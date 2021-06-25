@@ -1,5 +1,5 @@
-# UpdateMe and Erase-Install
-Some stuff to facilitate macOS major update or full erase and reinstall for non-admin users.
+# EnrollMe, UpdateMe and Erase-Install
+Some stuff to facilitate enrollment, system major update and full erase for non-admin users.
 
 ## Prerequises
 * __A working Munki installation is required.__ More infos [here](https://github.com/munki/munki)
@@ -10,6 +10,13 @@ Some stuff to facilitate macOS major update or full erase and reinstall for non-
 You can make two files with [Packages](http://s.sudre.free.fr/Software/Packages/about.html) to split these functions in two items for Munki (Erase&Install must be optional). <br/>The IT folder can be relocated, but beware of the folder access confidential limitation and change ITFOLDER variable in both post-install scripts. <br/>__Warning ! Theses tools can easily destroy all data on your computer, please test them and understand how it's work before use.__
 
 ## Packages content
+
+### EnrollMe package need these files :
+* /etc/sudoers.d/com-github-darkomen78-enrollme-sudoers
+* /Users/Shared/IT/enrollme/com.github.ygini.Hello-IT.Enrollme.plist
+* /Users/Shared/IT/enrollme/enrollme.sh  
+* /Library/Application Support/com.github.ygini.hello-it/CustomScripts/com.github.darkomen78.hello-it.enrollme.sh
+* As a post-install script : /scripts/postinstall_enrollme
 
 ### Major Update package need these files :
 * /etc/sudoers.d/com-github-darkomen78-majorupdate-sudoers
@@ -25,3 +32,4 @@ You can make two files with [Packages](http://s.sudre.free.fr/Software/Packages/
 * /Library/Application Support/com.github.ygini.hello-it/CustomScripts/com.github.darkomen78.hello-it.eraseall.sh  
 * As a post-install script : /scripts/postinstall_erase  
 _Optional_ : you can add some .pkg files in /Users/Shared/IT/erase/pkg/ folder for auto-installation after the macOS reinstallation.
+

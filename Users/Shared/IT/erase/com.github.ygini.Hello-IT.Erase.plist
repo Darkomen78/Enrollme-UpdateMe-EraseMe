@@ -7,7 +7,12 @@
 				<key>settings</key>
 				<dict>
 					<key>title</key>
-					<string>Wipe all the computerr</string>
+					<dict>
+						<key>fr</key>
+						<string>Effacer totalement l'ordinateur</string>
+						<key>en</key>
+						<string>Wipe all the computerr</string>
+					</dict>
 					<key>script</key>
 					<string>com.github.darkomen78.hello-it.eraseall.sh</string>
 					<key>optionalDisplay</key>

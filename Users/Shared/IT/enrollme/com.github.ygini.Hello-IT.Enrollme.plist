@@ -6,12 +6,8 @@
 				<string>public.script.item</string>
 				<key>settings</key>
 				<dict>
-					<key>title</key>
-					<string>Effacer totalement l'ordinateur</string>
 					<key>script</key>
-					<string>com.github.darkomen78.hello-it.eraseall.sh</string>
-					<key>optionalDisplay</key>
-					<true/>
+					<string>com.github.darkomen78.hello-it.enrollme.sh</string>
 				</dict>
 			</dict>
 </plist>
