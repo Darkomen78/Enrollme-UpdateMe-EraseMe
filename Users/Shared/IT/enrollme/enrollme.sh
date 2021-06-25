@@ -11,9 +11,9 @@ done
 macos_vers=$(sw_vers -productVersion | awk -F. '{ print $1; }')
 os_maj_vers=$(sw_vers -productVersion | awk -F. '{ print $2; }')
 os_min_vers=$(sw_vers -productVersion | awk -F. '{ print $3; }')
+USRSHORTNAME="$(ls -la /dev/console | awk '{print $3}')"
 
 function trigger_nag {
-
 
 	if [[ $macos_vers -ge 11 ]]
 	then
@@ -29,14 +29,12 @@ function trigger_nag {
 	fi
 }
 
-
-
 if [[ $clear_previous_profiles -eq 1 ]]
 then
 	yes | /usr/bin/profiles -D
 fi
 
-dseditgroup -o checkmember -m "$SUDO_USER" admin
+dseditgroup -o checkmember -m $USRSHORTNAME admin
 if [[ $? -ne 0 ]]
 then
 	need_to_update_rights=1
@@ -46,7 +44,7 @@ fi
 
 if [[ $need_to_update_rights -eq 1 ]]
 then
-	dseditgroup -o edit -t user -a "$SUDO_USER" admin
+	sudo dseditgroup -o edit -t user -a $USRSHORTNAME admin
 fi
 
 if [[ -f /var/db/ConfigurationProfiles/.noActivationRecord ]]
@@ -66,9 +64,13 @@ then
 	trigger_nag
 fi
 
+sleep 90
+
 if [[ $need_to_update_rights -eq 1 ]]
 then
-	dseditgroup -o edit -t user -d "$SUDO_USER" admin
+	sudo dseditgroup -o edit -t user -d $USRSHORTNAME admin
 fi
+
+rm /etc/sudoers.d/com-github-darkomen78-enrollme-sudoers
 
 exit 0

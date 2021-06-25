@@ -1,1 +1,1 @@
-%everyone ALL=(ALL) NOPASSWD: /Users/Shared/IT/enrollme/enrollme.sh
+%everyone ALL=(ALL) NOPASSWD: /Users/Shared/IT/enrollme/enrollme.sh,/usr/sbin/dseditgroup

@@ -8,7 +8,7 @@ Some stuff to facilitate enrollment, major system update and full erase for non-
 * [Packages](http://s.sudre.free.fr/Software/files/Packages.dmg) if you want to make custom installs or add pkg files in EraseMe. 
 
 ## Usage & Tips
-You can split these functions into different items for Munki. EraseMe must be an optional install for self-service or scoped on "wipeable" computer only. <br/>The IT folder can be relocated (change ITFOLDER variable in both post-install scripts), but beware of the folder access confidential limitation. <br/>__Warning ! Theses tools can easily destroy all data on your computer, please test them and understand how it's work before use.__
+You can split these functions into different items for Munki. EraseMe must be an optional install for self-service or scoped on "wipeable" computer only. <br/>The IT folder can be relocated (change ITFOLDER variable in both post-install scripts), but beware of the folder access confidential limitation. <br/>__Warning ! These tools can easily destroy all data on your computer, please test them and understand how it's work before use.__
 
 ## Packages content
 
