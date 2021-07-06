@@ -2,8 +2,8 @@
 Some stuff to facilitate enrollment, major system update and full erase for non-admin users.
 
 ## Prerequises
-* __A working Munki installation is required.__ More infos [here](https://github.com/munki/munki).
 * __Hello-IT functionals parameters with the key _allow subdomains_ to true are mandatory.__ See Wiki [here](https://github.com/ygini/Hello-IT/wiki/Preferences-subdomain).
+* A working Munki installation is optional. More infos [here](https://github.com/munki/munki).
 * Latest release for erase-install.sh file can be found [here](https://github.com/grahampugh/erase-install/releases).
 * [Packages](http://s.sudre.free.fr/Software/files/Packages.dmg) if you want to make custom installs or add pkg files in EraseMe. 
 
