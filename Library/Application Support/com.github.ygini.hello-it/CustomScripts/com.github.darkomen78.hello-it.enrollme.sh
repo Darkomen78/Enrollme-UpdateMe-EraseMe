@@ -57,7 +57,7 @@ function onClickAction {
 	if [ "${DEPOK}" = "Yes" ]; then
 		exit 0
 	else
-		sudo "$ITFOLDER"/enrollme/enrollme.sh -c
+		sudo "$ITFOLDER"/enrollme/enrollme.sh -c & disown
 	fi
 }
 	main "$@"

@@ -9,7 +9,7 @@ date >> $logfile
 sleep 1
 open $logfile
 sleep 1
-sudo /Users/Shared/IT/erase/erase-install.sh --erase --update --confirm --extras="/Users/Shared/IT/erase/pkg" >> $logfile 2>&1
+sudo /Users/Shared/IT/erase/erase-install.sh --erase --update --confirm --extras="/Users/Shared/IT/erase/pkg" >> $logfile 2>&1 & disown
 }
 
 main $@
