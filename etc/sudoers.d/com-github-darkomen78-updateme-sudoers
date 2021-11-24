@@ -1,1 +1,1 @@
-%everyone ALL=(ALL) NOPASSWD: /Users/Shared/IT/erase/erase-install.sh
+%everyone ALL=(ALL) NOPASSWD: /Library/Management/erase-install/erase-install.sh

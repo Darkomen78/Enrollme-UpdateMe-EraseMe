@@ -1,7 +1,11 @@
 #!/bin/bash
 
+# Determine working directory
+install_dir=`dirname $0`
 ITFOLDER="/Users/Shared/IT"
 USRSHORTNAME="$(ls -la /dev/console | awk '{print $3}')"
+
+/usr/sbin/installer -dumplog -verbose -pkg $install_dir/"erase-install-depnotify.pkg" -target "$3"
 
 cp $ITFOLDER/erase/com.github.ygini.Hello-IT.eraseme.plist /Users/$USRSHORTNAME/Library/Preferences/com.github.ygini.Hello-IT.eraseme.plist
 killall "Hello IT"

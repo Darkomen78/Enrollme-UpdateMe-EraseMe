@@ -789,7 +789,24 @@
 				<integer>1</integer>
 			</dict>
 			<key>RESOURCES</key>
-			<array/>
+			<array>
+				<dict>
+					<key>CHILDREN</key>
+					<array/>
+					<key>GID</key>
+					<integer>0</integer>
+					<key>PATH</key>
+					<string>erase-install-depnotify.pkg</string>
+					<key>PATH_TYPE</key>
+					<integer>1</integer>
+					<key>PERMISSIONS</key>
+					<integer>420</integer>
+					<key>TYPE</key>
+					<integer>3</integer>
+					<key>UID</key>
+					<integer>0</integer>
+				</dict>
+			</array>
 		</dict>
 		<key>PACKAGE_SETTINGS</key>
 		<dict>
@@ -816,7 +833,7 @@
 			<key>USE_HFS+_COMPRESSION</key>
 			<false/>
 			<key>VERSION</key>
-			<string>0.5.2</string>
+			<string>0.6.1</string>
 		</dict>
 		<key>PROJECT_COMMENTS</key>
 		<dict>
